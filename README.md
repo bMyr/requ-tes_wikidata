@@ -12,7 +12,7 @@ where {
 ```
 
 
-###Question 2: avec les labels (via le service wikibase:label) et les images associées
+### Question 2: avec les labels (via le service wikibase:label) et les images associées
 
 
 ```
