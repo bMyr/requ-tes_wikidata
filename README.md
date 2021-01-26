@@ -26,9 +26,7 @@ where {
     }}
 ```
 
-### Question 3: avec en option (via OPTIONAL) les collections/lieux de
-conservation
-
+### Question 3: avec en option (via OPTIONAL) les collections/lieux de conservation
 
 ```
 select distinct ?item ?itemLabel ?img ?lieux ?lieuxLabel
