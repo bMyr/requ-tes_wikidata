@@ -27,8 +27,8 @@ where {
 ### Question 3: avec en option (via OPTIONAL) les collections/lieux de
 conservation
 
-'''
-select distinct ?item ?itemLabel ?img ?lieux ?lieuxLabel
+
+```select distinct ?item ?itemLabel ?img ?lieux ?lieuxLabel
 where {
     ?item wdt:P31/wdt:P279* wd:Q3305213 .
     ?item wdt:P170 wd:Q296 .
@@ -39,5 +39,4 @@ where {
 	 OPTIONAL{?item wdt:P195 ?lieux
     	
     }
-} 
-'''
+}```
