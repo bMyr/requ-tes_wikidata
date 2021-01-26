@@ -33,6 +33,5 @@ where {
         bd:serviceParam wikibase:language "fr,en" .
     }
 	 OPTIONAL{?item wdt:P195 ?lieux
-    	
-    }
+    	    }
 }
