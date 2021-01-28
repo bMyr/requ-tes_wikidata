@@ -3,7 +3,7 @@
 ### Question 1: juste les peintures de monet :
 
 
-````
+````SPARQL
 select distinct ?item
 where {
     ?item wdt:P31/wdt:P279* wd:Q3305213 .
@@ -15,7 +15,7 @@ where {
 ### Question 2: avec les labels (via le service wikibase:label) et les images associées
 
 
-````
+````sparql
 select distinct ?item ?itemLabel ?img
 where {
     ?item wdt:P31/wdt:P279* wd:Q3305213 .
@@ -28,7 +28,7 @@ where {
 
 ### Question 3: avec en option (via OPTIONAL) les collections/lieux de conservation
 
-````
+````sparql
 select distinct ?item ?itemLabel ?img ?lieux ?lieuxLabel
 where {
     ?item wdt:P31/wdt:P279* wd:Q3305213 .
