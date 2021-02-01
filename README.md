@@ -2,15 +2,13 @@
 
 ### Question 1: juste les peintures de monet :
 
-
-````SPARQL
+````sparql
 select distinct ?item
 where {
     ?item wdt:P31/wdt:P279* wd:Q3305213 .
     ?item wdt:P170 wd:Q296 .
 	}
 ````
-
 
 ### Question 2: avec les labels (via le service wikibase:label) et les images associées
 
